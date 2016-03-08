@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(name="stardict",
-      description="Python Module reading StarDict dictionaries."
+      description="Python Module reading StarDict dictionaries.",
       requires=["struct", "types", "gzip"],
       provides=["stardict"],
       version="0.1",
